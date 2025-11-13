@@ -1,0 +1,35 @@
+body {
+  font: 100%/1.5 system-ui, sans-serif;
+  display: flex;
+  flex-flow: column;
+  max-width: 80em;
+  min-height: 100vh;
+  margin: auto;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: 1em;
+  gap: 3em;
+}
+
+input[type="range"] {
+  margin-left: 0.5em;
+}
+
+#any-time {
+  display: inline;
+  font-style: italic;
+  color: #666;
+}
+
+#time-slider {
+  display: block; /* or just remove this line */
+  width: 30vw;      /* full viewport width */
+  box-sizing: border-box; /* includes padding in width */
+}
+
